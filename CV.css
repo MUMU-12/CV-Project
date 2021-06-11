@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 10px;
+
+}
+h1,h3,h3,h4,h5,h6{
+    color: teal;
+}
+.contacts{
+    float: right;
+    padding: 30px;
+    
+}
+.contacts a{
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contacts a:hover{
+    text-decoration: underline;
+    color: royalblue;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* Personal Section Start*/
+#personal-section{
+
+}
+.Content{
+
+
+}
+.left-div{
+float: left;
+width: 30%;
+}
+.right-div{
+float: right;
+width: 70%;
+}
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 10px auto;
+}
+/*Skill*/
+.skill li::before{
+    content: url(images/checked\ \(1\).png);
+    color: darkcyan;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+/*Education and references*/
+.right1{
+width: 35%;
+float: left;
+}
+.right2{
+    width: 35%;
+    float: right;
+}
+
+/*Honour*/
+.honour li::before{
+    content: url(images/checked\ \(1\).png);
+    color: darkcyan;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+ .bottom{
+     background-color: black;
+     text-align: center;
+     padding: 10px;
+ }
+ .bottom a{
+     color: white;
+     text-decoration: none;
+     margin: 20px;
+ }
+ .bottom p{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
